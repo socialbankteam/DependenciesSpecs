@@ -24,7 +24,8 @@ Alamofire+ObjectMapper network library for Swift 5
   s.homepage         = "https://github.com/socialbankteam/DependenciesFrameworks"
   s.license          = 'MIT'
   s.author           = { "Felipe Cardoso" => "felipe.cardoso@socialbank.com.br", "Guilherme Silva" => "guilherme.silva@hubfintech.com.br" }
-  s.source           = { :http => "https://github.com/socialbankteam/DependenciesFrameworks/blob/master/Giba/#{s.version}/Giba.zip" }
+  #s.source           = { :http => "https://github.com/socialbankteam/DependenciesFrameworks/blob/master/Giba/#{s.version}/Giba.zip" }
+  s.source           = { :git => "https://socialbank.visualstudio.com/Consumer/_git/GIBA_IOS", :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
