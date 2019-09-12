@@ -24,8 +24,8 @@ DESC
 s.homepage         = "https://github.com/socialbankteam/DependenciesFrameworks"
 s.license          = 'MIT'
 s.author           = { "Felipe Cardoso" => "felipe.cardoso@socialbank.com.br", "Alana Santos" => "alana.santos@socialbank.com.br" }
-#s.source           = { :http => "https://github.com/socialbankteam/DependenciesFrameworks/blob/master/Giba/#{s.version}/Giba.zip" }
-s.source           = { :git => "https://socialbank.visualstudio.com/Consumer/_git/SB_API_IOS", :tag => s.version.to_s }
+s.source           = { :http => "https://gitlab.com/socialbank/frameworks/tree/master/SocialPartner/#{s.version}/SocialPartner.zip" }
+#s.source           = { :git => "https://socialbank.visualstudio.com/Consumer/_git/SB_API_IOS", :tag => s.version.to_s }
 
 s.ios.deployment_target = '9.0'
 s.swift_version = '5.0'
